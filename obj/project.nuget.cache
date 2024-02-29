@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SG9XHNwpjq0QHNAfqHcs1qJnF6CD0PBS6Pqnrou9N/gUNxGoPWdL9afrh2AhN6dhi3KQCsxMmkCkFnKhjvg3RA==",
+  "dgSpecHash": "Fh1vKivU8tlD8o9fAwRvRC7hBMnJ3sKsX6odY7Y+A8Dg9zrbeKr08kZcuB3vriTbDElRT1K5p37rn3/Kkq6NbA==",
   "success": true,
   "projectFilePath": "C:\\Users\\lfcof\\OneDrive - The University of Alabama\\MIS421\\421Assignment3-lfcoffman\\421Assignment3-lfcoffman.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\lfcof\\.nuget\\packages\\vadersharp2\\3.3.2.1\\vadersharp2.3.3.2.1.nupkg.sha512"
+  ],
   "logs": []
 }

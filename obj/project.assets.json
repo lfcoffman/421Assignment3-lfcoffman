@@ -1,11 +1,58 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "VaderSharp2/3.3.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/VaderSharp2.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/VaderSharp2.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "VaderSharp2/3.3.2.1": {
+      "sha512": "LBQPC5tZZNCG3GS22Ldlc0B6l4jw7/GZRx7dbi1c3uYsoUCNZ5jJFfClBkACISqCDDCJftSRe4gSwLF7F/uzyQ==",
+      "type": "package",
+      "path": "vadersharp2/3.3.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net452/VaderSharp2.dll",
+        "lib/net452/VaderSharp2.xml",
+        "lib/net46/VaderSharp2.dll",
+        "lib/net46/VaderSharp2.xml",
+        "lib/net461/VaderSharp2.dll",
+        "lib/net461/VaderSharp2.xml",
+        "lib/net462/VaderSharp2.dll",
+        "lib/net462/VaderSharp2.xml",
+        "lib/net47/VaderSharp2.dll",
+        "lib/net47/VaderSharp2.xml",
+        "lib/net5.0/VaderSharp2.dll",
+        "lib/net5.0/VaderSharp2.xml",
+        "lib/net6.0/VaderSharp2.dll",
+        "lib/net6.0/VaderSharp2.xml",
+        "lib/netcoreapp2.1/VaderSharp2.dll",
+        "lib/netcoreapp2.1/VaderSharp2.xml",
+        "lib/netcoreapp3.1/VaderSharp2.dll",
+        "lib/netcoreapp3.1/VaderSharp2.xml",
+        "vadersharp2.3.3.2.1.nupkg.sha512",
+        "vadersharp2.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "VaderSharp2 >= 3.3.2.1"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\lfcof\\.nuget\\packages\\": {}
@@ -45,6 +92,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "VaderSharp2": {
+            "target": "Package",
+            "version": "[3.3.2.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

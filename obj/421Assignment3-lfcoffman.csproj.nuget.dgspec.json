@@ -39,6 +39,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "VaderSharp2": {
+              "target": "Package",
+              "version": "[3.3.2.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
